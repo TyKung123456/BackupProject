@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lilita One', cursive;
+}
+/* เลือกเกม */
+.quiz-select {
+    min-height: 100vh;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    height: 100%;
+}
+
+.quiz-select a {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    white-space: nowrap;
+    padding: 0;
+    padding-left: 12px;
+
+    width: 350px;
+}
+
+.quiz-select img {
+    margin-top: 6px;
+}
+
+.link_wrapper {
+    display: flex;
+}
+
+li{
+    list-style: none;
+    margin: 1rem 0;
+}
+
+p {
+    font-size: 70px;
+}
+
+.container {
+    text-align: right;
+}
+.sign-in {
+    height: 100vh;
+    width: 100%;
+    /* background*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 160px;
+    
+}
+
+.header {
+    position: relative;
+}
+
+.signin a {
+    text-decoration: none;
+    color: white;
+    margin-left: 60px;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+}
+
+.signin a:hover {
+    border-bottom: 2px solid white;
+}
+
+h4 {                         
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top:10px;
+    transition: all .55s ease;
+}
+
+.signin {
+    color: white;
+    position: absolute;
+    top: 20;
+    right: 0;
+    font-size: 30px;        
+    padding-right: 20px;
+    padding-top: 0px;
+}
+
+
+.signin:link {
+    text-decoration: none;
+}
+
+form.sign-in{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+form.sign-up{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h2.sign-in{
+    margin: 10px;
+    color: white;
+    font-weight: 300;
+
+}
+input{
+    border: none;
+    height: px;
+    width: 250px;
+    margin: 10px 0 ;
+    padding: 10px;
+    font-size: 1rem;
+    outline: none;
+    text-align: center;
+    border-radius: 20px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.textbox {
+    font-size : 15px;
+    color: white;
+    background : rgba(255,255,255,0.2) ;
+    border: 1px solid rgba(255,255,255,0.4);
+}
+.textbox::placeholder{
+    color:white ;
+}
+.textbox:hover,
+.textbox:focus {
+    background: white;
+    width: 350px;
+    color: slategray;
+}
+/* กรอบความยาก*/
+.btn{ 
+    width: 300px;
+    height: 90px;
+    font-size: 35px;
+    background-color: rgb(241, 209, 102);
+    margin: auto;
+    border-radius: 50px;
+    font-family: 'Lilita One', cursive;
+}
+
+.btn:hover {
+    background-color: rgb(246, 216, 119);
+}
+
+.btn-submit {
+    background: white;
+    color: slategray;
+}
+.btn-submit:hover{
+    color:white;
+    background:slategray; 
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.box {
+    width: 1200px;
+    height: 600px;
+    background-color: rgb(255, 241, 197);
+    margin: auto;
+    border-radius: 20px;
+}
+
+.p-c {
+    font-size : 75px;
+    color: rgb(111, 78, 0);
+}
+
+/* test รูปใน index */ 
+img{
+    position: relative;
+    right: 5px;
+    top: -5px;
+    
+
+}
+
+
+
+.submit-btn {
+    background: white;
+    color: slategray;
+}
+
+.submit-btn :hover{
+    color:white;
+    background:slategray; 
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+/* หน้า score*/
+
+.rectangle{
+    width: 1200px;
+    height: 600px;
+    background-color: rgb(255, 241, 197);
+    margin: auto;
+    border-radius: 20px;
+}
+
+#box-c {
+    width: 300px;
+    height: 90px;
+    font-size: 35px;
+    background-color: rgb(241, 209, 102);
+    margin: auto;
+    border-radius: 50px;
+}
+.main-score p {
+    color: black;
+    font-size: 30px;
+    
+}
+
+.main-score h1 {
+    font-size : 70px;
+    color: #4a3c21;
+    text-align: center;
+    display: flex
+}
+.main-rank {
+    text-align: left;
+}
+
+.question-score-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+  }
+  
+  .question-score {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+
+  .btn-border-score{ 
+    color:white;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2000x;
+    height: 90px;
+    font-size: 35px;
+    background-color: #f38ab5;
+    margin: auto;
+    border-radius: 50px;
+    font-family: 'Lilita One', cursive;
+    text-decoration: none;
+    
+  }
+  
+  
